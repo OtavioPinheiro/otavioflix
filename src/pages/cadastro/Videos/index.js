@@ -13,9 +13,9 @@ function CadastroVideo() {
   const [categorias, setCategorias] = useState([]);
   const categoryTitles = categorias.map(({ titulo }) => titulo);
   const { handleChange, values } = useForm({
-    titulo: 'Vídeo motivacional',
-    url: 'https://www.youtube.com/watch?v=2c0y5H0FG6I',
-    categoria: 'Front End',
+    // titulo: 'Vídeo motivacional',
+    // url: 'https://www.youtube.com/watch?v=2c0y5H0FG6I',
+    // categoria: 'Motivacional',
   });
 
   useEffect(() => {
@@ -26,7 +26,7 @@ function CadastroVideo() {
       });
   }, []);
 
-  console.log(categoryTitles);
+  // console.log(categoryTitles);
 
   return (
     <PageDefault>
@@ -48,7 +48,7 @@ function CadastroVideo() {
           categoriaId: 1,
         })
           .then(() => {
-            console.log('Cadastrou com sucesso')
+            // console.log('Cadastrou com sucesso')
             history.push('/');
           });
 

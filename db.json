@@ -1,6 +1,15 @@
 {
   "categorias": [
     {
+      "id": 5,
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    },
+    {
       "id": 1,
       "titulo": "Front End",
       "cor": "#6BD1FF",
@@ -33,13 +42,9 @@
       "cor": "orange"
     },
     {
-      "id": 5,
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "id": 6,
+      "titulo": "Motivacional",
+      "cor": "#fdcf17"
     }
   ],
   "videos": [
@@ -164,6 +169,12 @@
       "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
     },
     {
+      "id": 32,
+      "categoriaId": 5,
+      "titulo": "The Witcher 3 - Wild Hunt : Vale ou não a pena jogar",
+      "url": "https://www.youtube.com/watch?v=SLke5iuLhAs"
+    },
+    {
       "id": 21,
       "categoriaId": 5,
       "titulo": "Final Fantasy 7",
@@ -186,6 +197,48 @@
       "categoriaId": 5,
       "titulo": "Resident Evil 8",
       "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+    },
+    {
+      "id": 25,
+      "categoriaId": 6,
+      "titulo": "DESISTIR NÃO É UMA OPÇÃO! - VÍDEO MOTIVACIONAL/MOTIVAÇÃO",
+      "url": "https://www.youtube.com/watch?v=beEnQwbxaNA"
+    },
+    {
+      "id": 26,
+      "categoriaId": 6,
+      "titulo": "E SE NÃO ESTIVER TUDO BEM? Vídeo Motivacional (Motivação 2020)",
+      "url": "https://www.youtube.com/watch?v=2c0y5H0FG6I"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "E QUANDO DÁ TUDO ERRADO NA SUA VIDA? (Poderoso Vídeo Motivacional)",
+      "url": "https://www.youtube.com/watch?v=KbYe3DelS3c"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "DESMOTIVADO para Estudar Programação? Assista isso!",
+      "url": "https://www.youtube.com/watch?v=j2qCJf-oPoc"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "MELHOR VÍDEO DE MOTIVAÇÃO - ESFORÇO",
+      "url": "https://www.youtube.com/watch?v=s_rbmeOP3T0"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Rock Balboa - Discurso Inspirador Para o Filho",
+      "url": "https://www.youtube.com/watch?v=jF9_7OWogIE"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "ENFRENTE AS DIFICULDADES DA VIDA - VÍDEO MOTIVACIONAL",
+      "url": "https://www.youtube.com/watch?v=dJZPai5XbAk"
     }
   ]
 }

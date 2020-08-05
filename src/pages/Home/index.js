@@ -14,10 +14,10 @@ function Home() {
     categoriasRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
         setDadosIniciais(categoriasComVideos);
-        console.log(categoriasComVideos);
+        // console.log(categoriasComVideos);
       })
       .catch((err) => {
-        console.log(err.message);
+        // console.log(err.message);
       });
   }, []);
 
